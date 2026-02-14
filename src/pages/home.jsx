@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import './home.css'
 import Headerr from '../components/layout/header'
 import Herosec from '../components/layout/hero'
@@ -26,34 +25,32 @@ const Home = () => {
             <Headerr />
         </hedaer>
         <main>
-            <section className='sec1'>
-                <Herosec />
-            </section>
-            <section className='sec2'>
-                <nav className='nav-sec2'>
-                    <Navigationlinksec2 />
-                    <Navigationlinksec2 />
-                    <Navigationlinksec2 />
-                    <Navigationlinksec2 />
-                    <Navigationlinksec2 />
-                    <Navigationlinksec2 />
+      <section className='sec1'>
+    <Herosec />
+  </section>
+    <section className='sec2'>
+     <nav className='nav-sec2'>
+  <Navigationlinksec2 />
+  <Navigationlinksec2 />
+   <Navigationlinksec2 />
+    <Navigationlinksec2 />
+      <Navigationlinksec2 />
+       <Navigationlinksec2 />
                 </nav>
-            </section>
-            <section className='sec3'>
-                <div className='container-sec3'>
-                    <Title1sec3 />
-                    <Bigtitlesec3 />
-                    <div className='container-row-sec3'>
-                                <Cardsec3 />
-                 
-                                <Cardsec3 />
-          
-                                 <Cardsec3 />
-                    </div>
+     </section>
+<section className='sec3'>
+ <div className='container-sec3'>
+      <Title1sec3 />
+     <Bigtitlesec3 />
+      <div className='container-row-sec3'>
+     <Cardsec3 />
+ <Cardsec3 />
+  <Cardsec3 />
+     </div>
 
-                </div>
-            </section>
-                                <Bigtitlesec3 />
+ </div>
+ </section>
+     <Bigtitlesec3 />
 <Smalltitlesec4 />
 
 <section className='card-big-sec4'>
@@ -62,59 +59,59 @@ const Home = () => {
     <Cardsec4 />
   
 </section>
-<section className='center-div'>  <Cta /></section>
+<section className='center-div'>  
+    <Cta />
+    </section>
   <section className='sec5-big-div'>
-                                    <Bigtitlesec3 />
+        <Bigtitlesec3 />
     <article className='container-cards-sec5'>
-<Sec5 />
-<Sec5 />
-<Sec5 />
-</article>
+    <Sec5 />
+    <Sec5 />
+    <Sec5 />
+    </article>
 
   </section>
-  <section className='center-div'>  <Cta /></section>
+  <section className='center-div'>  
+    <Cta />
+    </section>
 <section className='sec6-big-div'>
     <Sec6 />
-
 </section>
 <section className='sec-vertical'>
   <Title1sec3 />
-                    <Bigtitlesec3 />
-                    <section className='card-big-sec7'>
-                        <Sec7 />
-                        <Sec7 />
-                        <Sec7 />
-                    </section>
-                      <Cta />
-                    </section>
+         <Bigtitlesec3 />
+     <section className='card-big-sec7'>
+         <Sec7 />
+         <Sec7 />
+         <Sec7 />
+  </section>
+     <Cta />
+ </section>
 
-                    <section className='sec-vertical'>
+    <section className='sec-vertical'>
   <Title1sec3 />
-                    <Bigtitlesec3 />
-                    <section className='card-big-sec8'>
-                        <Sec8 />
-                        <Sec8 />
-                        <Sec8 />
-                    </section>
-                    <Cta />
-                    </section>
+    <Bigtitlesec3 />
+    <section className='card-big-sec8'>
+         <Sec8 />
+         <Sec8 />
+         <Sec8 />
+          </section>
+     <Cta />
+     </section>
 
-                    <section className='sec-vertical'>
+     <section className='sec-vertical'>
   <Title1sec3 />
-                    <Bigtitlesec3 />
-                    <section className='card-big-sec9'>
-                        <Sec9 />
-                        <Sec9 />
-                        <Sec9 />
-                       
-                    </section></section>
-
+     <Bigtitlesec3 />
+     <section className='card-big-sec9'>
+     <Sec9 />
+     <Sec9 />
+     <Sec9 />
+     </section>
+    </section>
         </main>
-
         <footer>
-                                    <Footer />
+            <Footer />
         </footer>
-
         </>
      );
 }
