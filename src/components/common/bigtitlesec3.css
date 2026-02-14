@@ -1,6 +1,10 @@
 .bigtitle-sec3{
-    color: #F58420;
-    font-size: 37.3px;
-    font-weight: 700;text-align: center;
-    line-height: 48px; /* 128.686% */
+  color: #F58420;
+  font-size: 37.3px;
+  font-weight: 700;
+  text-align: center;  
+  transition:all 0.3s ease;
+  line-height: 48px; /* 128.686% */
 }
+
+

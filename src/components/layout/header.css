@@ -6,8 +6,12 @@
     justify-content: center;
     position: fixed;
     padding: 0 150px;
+    z-index: 1111;
+    transition: all 0.3s ease;
     align-items: center;
 }
+
+
 
 .list-navigation-bar{
     display: flex;
@@ -23,5 +27,4 @@
     gap: 53px;
     width: 1146px;
 }
-
 

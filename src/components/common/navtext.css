@@ -1,7 +1,11 @@
 .navigation-text-header{
-    color: #FFF;
-    font-size: 14.9px;
-    font-weight: 600;
-    line-height: 14px; /* 93.96% */
+  color: #FFF;
+  font-size: 14.9px;
+  position: relative;
+  font-weight: 600;  
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 14px; /* 93.96% */
 }
+
 

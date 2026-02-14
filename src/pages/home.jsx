@@ -1,4 +1,5 @@
 import React from 'react';
+// import ReactDOM from 'react-dom';
 import './home.css'
 import Headerr from '../components/layout/header'
 import Herosec from '../components/layout/hero'
@@ -9,6 +10,13 @@ import Cardsec3 from '../components/common/cardsec3'
 import Smalltitlesec4 from '../components/common/smalltitlesec4';
 import Cardsec4 from '../components/common/cardsec4';
 import Cta from '../components/common/button';
+import Sec5 from '../components/common/sec5';
+import Sec6 from '../components/common/sec6';
+import Sec7 from '../components/common/sec7';
+import Sec8 from '../components/common/sec8';
+import Sec9 from '../components/common/sec9';
+import Footer from '../components/layout/footer';
+
 
 
 const Home = () => {
@@ -37,7 +45,9 @@ const Home = () => {
                     <Bigtitlesec3 />
                     <div className='container-row-sec3'>
                                 <Cardsec3 />
+                 
                                 <Cardsec3 />
+          
                                  <Cardsec3 />
                     </div>
 
@@ -53,9 +63,58 @@ const Home = () => {
   
 </section>
 <section className='center-div'>  <Cta /></section>
-  <section className=''></section>
-  
+  <section className='sec5-big-div'>
+                                    <Bigtitlesec3 />
+    <article className='container-cards-sec5'>
+<Sec5 />
+<Sec5 />
+<Sec5 />
+</article>
+
+  </section>
+  <section className='center-div'>  <Cta /></section>
+<section className='sec6-big-div'>
+    <Sec6 />
+
+</section>
+<section className='sec-vertical'>
+  <Title1sec3 />
+                    <Bigtitlesec3 />
+                    <section className='card-big-sec7'>
+                        <Sec7 />
+                        <Sec7 />
+                        <Sec7 />
+                    </section>
+                      <Cta />
+                    </section>
+
+                    <section className='sec-vertical'>
+  <Title1sec3 />
+                    <Bigtitlesec3 />
+                    <section className='card-big-sec8'>
+                        <Sec8 />
+                        <Sec8 />
+                        <Sec8 />
+                    </section>
+                    <Cta />
+                    </section>
+
+                    <section className='sec-vertical'>
+  <Title1sec3 />
+                    <Bigtitlesec3 />
+                    <section className='card-big-sec9'>
+                        <Sec9 />
+                        <Sec9 />
+                        <Sec9 />
+                       
+                    </section></section>
+
         </main>
+
+        <footer>
+                                    <Footer />
+        </footer>
+
         </>
      );
 }
