@@ -15,6 +15,7 @@
 
 .cardsec5:hover {
   transform: scale(1.03);
+  box-shadow: 0 1px 1px 2px var(--color-shadow-soft);
 }
 
 .imgsec5 {

@@ -23,7 +23,7 @@
   background: var(--color-white);
   border-top: 6px solid var(--color-orange);
   box-shadow: 0 1px 1px 2 var(--color-shadow-soft);
-  padding: 50px 0px 10px 50px;
+  padding: 50px 0px 30px 50px;
 }
 
 .sec6-title {
