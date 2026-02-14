@@ -16,8 +16,6 @@ import Sec8 from '../components/common/sec8';
 import Sec9 from '../components/common/sec9';
 import Footer from '../components/layout/footer';
 
-
-
 const Home = () => {
     return ( 
         <>
